@@ -2,6 +2,10 @@
 
 Browser-to-browser file and text sharing built with React, TypeScript and WebRTC.
 
+**[Open QuickDrop online](https://quickdrop-albertino.fancywhale2.chatgpt.site)**
+
+The hosted version is a static demo with no TURN relay configured; the cellular-sharing limitation below still applies.
+
 > **Status: failed experiment for cellular-to-cellular sharing.** The project did not achieve its intended real-world use case. Do not expect it to work between devices using cellular data in its current setup. The sources are preserved for learning and further experimentation.
 
 Local automated browser transfers pass, but they do not demonstrate connectivity between real devices on separate mobile networks. Direct WebRTC connections can fail behind carrier NATs and firewalls. Optional TURN relay code is included, but no live relay or cellular transfer has been verified; configuring it is not a proven fix for this project.
