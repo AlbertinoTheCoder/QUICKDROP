@@ -1,0 +1,2 @@
+import {defineConfig} from '@playwright/test';
+export default defineConfig({testDir:'tests/browser',timeout:60000,fullyParallel:false,use:{baseURL:'http://127.0.0.1:5175',headless:true},webServer:{command:'npm run dev -- --port 5175 --strictPort',url:'http://127.0.0.1:5175',reuseExistingServer:!process.env.CI,env:{VITE_STUN_URL:'',TURN_KEY_ID:'',TURN_KEY_API_TOKEN:'',RELAY_ACCESS_CODE:''}},projects:[{name:'chromium',use:{browserName:'chromium'}}]});
