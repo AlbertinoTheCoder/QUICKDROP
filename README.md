@@ -61,3 +61,7 @@ Browser tests require Playwright Chromium (`npx playwright install chromium`) an
 This is an experimental source release, not a reliable cross-network sharing service. Physical iPads, Safari behavior and real cellular-to-cellular transfers have not been verified. Publishing the website only serves the app; it does not relay peer traffic. Static ZIP uploads do not include the credential function.
 
 Keep pairing data private. Copy `.env.example` to `.env` only when needed, and keep provider credentials server-side. Generated builds, local secrets and test artifacts are excluded from Git.
+
+## License
+
+Licensed under the [MIT License](LICENSE).
